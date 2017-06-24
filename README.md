@@ -4,6 +4,8 @@
 ## 環境
 ```
 brew install mecab mecab-ipadic
+pip install mecab-python3
+pip install gensim
 ```
 
 ## Usage
