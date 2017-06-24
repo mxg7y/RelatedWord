@@ -26,7 +26,7 @@ class Morph():
 
     def init_stopwords(self):
         stopwords = []
-        with open('lib/stopwords.txt', 'r') as f:
+        with open('data/stopwords.txt', 'r') as f:
             data = f.read()
             stopwords = [ word for word in data.split("\n") if word != '' ]
         return stopwords
