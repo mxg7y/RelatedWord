@@ -37,7 +37,7 @@ class Morph():
         while node:
             word_class = node.feature.split(',')[0]
             basic_form = node.feature.split(',')[6]
-            if word_class in pass_class and basic_form not in self.stopwords and basic_form != '*':
+            if word_class in pass_class and basic_form not in self.stopwords and basic_form != u'*':
                 if shape == 'basic':
                     filtered_words.append(basic_form)
                 elif shape == 'surface':
